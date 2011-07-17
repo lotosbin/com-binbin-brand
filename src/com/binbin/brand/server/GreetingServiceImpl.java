@@ -1,5 +1,6 @@
 package com.binbin.brand.server;
 
+
 import com.binbin.brand.client.GreetingService;
 import com.binbin.brand.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;

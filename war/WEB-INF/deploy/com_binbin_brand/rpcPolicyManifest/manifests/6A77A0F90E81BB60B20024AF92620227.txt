@@ -1,0 +1,2 @@
+serviceClass: com.binbin.brand.client.GreetingService
+path: 75AFEA30FA0A41E1578FA5535DE4B90E.gwt.rpc
