@@ -4,36 +4,45 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
-  
-  <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.binbin.brand.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
 
-  <servlet>
-  	<servlet-name>guestbook</servlet-name>
-  	<servlet-class>com.binbin.brand.server.GuestbookServlet</servlet-class>
-  </servlet><servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/com_binbin_brand/greet</url-pattern>
-  </servlet-mapping>
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>greetServlet</servlet-name>
+		<servlet-class>com.binbin.brand.server.GreetingServiceImpl</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>guestbook</servlet-name>
+		<servlet-class>com.binbin.brand.server.GuestbookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>greetServlet</servlet-name>
+		<url-pattern>/com_binbin_brand/greet</url-pattern>
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>guestbook</servlet-name>
 		<url-pattern>/guestbook</url-pattern>
 	</servlet-mapping>
-<servlet>
-        <servlet-name>sign</servlet-name>
-        <servlet-class>com.binbin.brand.server.SignGuestbookServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>sign</servlet-name>
-        <url-pattern>/sign</url-pattern>
-    </servlet-mapping>
+	<servlet>
+		<servlet-name>sign</servlet-name>
+		<servlet-class>com.binbin.brand.server.SignGuestbookServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>testtaobaouserget</servlet-name>
+		<servlet-class>com.binbin.brand.taobao.TaobaoUserGetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>testtaobaouserget</servlet-name>
+	<url-pattern>/test/taobao/taobao-user-get</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>sign</servlet-name>
+		<url-pattern>/sign</url-pattern>
+	</servlet-mapping>
 	<!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>Com_binbin_brand.html</welcome-file>
-  </welcome-file-list>
+	<welcome-file-list>
+		<welcome-file>Com_binbin_brand.html</welcome-file>
+	</welcome-file-list>
 
 </web-app>
