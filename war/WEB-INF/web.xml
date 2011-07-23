@@ -33,16 +33,24 @@
 		<servlet-class>com.binbin.brand.taobao.TaobaoUserGetServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-	<servlet-name>testtaobaouserget</servlet-name>
-	<url-pattern>/test/taobao/taobao-user-get</url-pattern>
+		<servlet-name>testtaobaouserget</servlet-name>
+		<url-pattern>/test/taobao/taobao-user-get</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>sign</servlet-name>
 		<url-pattern>/sign</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>Brand-ThirdBrandAddServlet</servlet-name>
+		<servlet-class>com.binbin.brand.ThirdBrandAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Brand-ThirdBrandAddServlet</servlet-name>
+		<url-pattern>/brand/thirdbrandaddservlet</url-pattern>
+	</servlet-mapping>
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>Com_binbin_brand.html</welcome-file>
+		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
 
 </web-app>

@@ -11,7 +11,10 @@
 
 <html>
 <body>
-
+	<h1>binbin's project brand</h1>
+	<nav>
+		<a href="/">Home</a> <a href="/guestbook/index.jsp">GuestBook</a>
+	</nav>
 	<%
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();

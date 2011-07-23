@@ -1,2 +1,3 @@
 # Module com_binbin_brand
 # RPC service class, partial path of RPC policy file
+com.binbin.brand.client.GreetingService, 75AFEA30FA0A41E1578FA5535DE4B90E.gwt.rpc
