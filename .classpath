@@ -5,6 +5,12 @@
 	<classpathentry exported="true" kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="sdk/taobao/taobao-sdk-java-20110711.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/taobao/taobao-sdk-java-20110711.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-java-client-1.4.1-beta/dependencies/guava-r09.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-services-tasks-v1-1.0.0-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-java-client-1.4.1-beta/google-api-client-1.4.1-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-java-client-1.4.1-beta/google-api-client-extensions-1.4.1-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-java-client-1.4.1-beta/google-api-client-googleapis-1.4.1-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk/google-api-java-client-1.4.1-beta/google-api-client-googleapis-extensions-1.4.1-beta.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
