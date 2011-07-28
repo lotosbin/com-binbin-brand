@@ -16,7 +16,8 @@
 </head>
 
 <body>
-	<% @include file="/shared/header.html" %>
+
+	<jsp:include page="/shared/header.html" />
 	<!-- content -->
 	<div id="gc-pagecontent">
 		<h1 class="page_title">Code Lab Example 2</h1>
@@ -109,56 +110,65 @@
 								<td>Name</td>
 								<td><span class="readonly"><input type="text"
 										style="width: 185px;" autocomplete="off" class="gsc-input"
-										maxlength="2048" name="name" id="name" /> </span></td>
+										maxlength="2048" name="name" id="name" /> </span>
+								</td>
 							</tr>
 
 							<tr>
 								<td>First Name</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="firstName" id="firstName" /></td>
+									name="firstName" id="firstName" />
+								</td>
 							</tr>
 							<tr>
 								<td>Last Name</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="lastName" id="lastName" /></td>
+									name="lastName" id="lastName" />
+								</td>
 							</tr>
 							<tr>
 								<td>Address</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="address" id="address" /></td>
+									name="address" id="address" />
+								</td>
 							</tr>
 							<tr>
 								<td>City</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="city" id="city" /></td>
+									name="city" id="city" />
+								</td>
 							</tr>
 							<tr>
 								<td>State</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="state" id="state" /></td>
+									name="state" id="state" />
+								</td>
 							</tr>
 							<tr>
 								<td>Zip</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="zip" id="zip" /></td>
+									name="zip" id="zip" />
+								</td>
 							</tr>
 							<tr>
 								<td>Phone</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="phone" id="phone" /></td>
+									name="phone" id="phone" />
+								</td>
 							</tr>
 							<tr>
 								<td>Email</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="eMail" id="eMail" /></td>
+									name="eMail" id="eMail" />
+								</td>
 							</tr>
 							<tr>
 								<td>&nbsp;</td>
@@ -167,8 +177,7 @@
 									type="button" class="cancel" title="Cancel" value="Cancel"
 									onclick="cancel('customer')" /> <input type="reset"
 									id="customer-reset" class="cancel" title="Reset" value="Reset"
-									style="visibility: hidden" />
-								</td>
+									style="visibility: hidden" /></td>
 							</tr>
 						</tbody>
 					</table>
@@ -221,13 +230,15 @@
 								<td>Name</td>
 								<td><span class="readonly"><input type="text"
 										style="width: 185px;" autocomplete="off" class="gsc-input"
-										maxlength="2048" name="name" id="name" /> </span></td>
+										maxlength="2048" name="name" id="name" /> </span>
+								</td>
 							</tr>
 							<tr>
 								<td>Description</td>
 								<td><input type="text" style="width: 185px;"
 									autocomplete="off" class="gsc-input" maxlength="2048"
-									name="description" id="description" /></td>
+									name="description" id="description" />
+								</td>
 							</tr>
 							<tr>
 								<td>&nbsp;</td>
@@ -236,8 +247,7 @@
 									type="button" class="cancel" title="Cancel" value="Cancel"
 									onclick="cancel('product')" /> <input type="reset"
 									id="product-reset" class="cancel" title="Reset" value="Reset"
-									style="visibility: hidden" />
-								</td>
+									style="visibility: hidden" /></td>
 							</tr>
 						</tbody>
 					</table>
@@ -289,13 +299,15 @@
 							<td>Item Name</td>
 							<td><span class="readonly"><input type="text"
 									style="width: 185px;" autocomplete="off" class="gsc-input"
-									maxlength="2048" name="name" id="name" /> </span></td>
+									maxlength="2048" name="name" id="name" /> </span>
+							</td>
 						</tr>
 						<tr>
 							<td>Selling Price</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="price" id="price" /></td>
+								name="price" id="price" />
+							</td>
 						</tr>
 						<tr>
 							<td>Product</td>
@@ -309,8 +321,7 @@
 								type="button" class="cancel" title="Cancel" value="Cancel"
 								onclick="cancel('item')" /> <input type="reset" id="item-reset"
 								class="cancel" title="Reset" value="Reset"
-								style="visibility: hidden" />
-							</td>
+								style="visibility: hidden" /></td>
 						</tr>
 					</table>
 				</form>
@@ -370,43 +381,50 @@
 							<td>Address</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="shipto" id="shipto" /></td>
+								name="shipto" id="shipto" />
+							</td>
 						</tr>
 						<tr>
 							<td>City</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="city" id="city" /></td>
+								name="city" id="city" />
+							</td>
 						</tr>
 						<tr>
 							<td>State</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="state" id="state" /></td>
+								name="state" id="state" />
+							</td>
 						</tr>
 						<tr>
 							<td>Zip</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048" name="zip"
-								id="zip" /></td>
+								id="zip" />
+							</td>
 						</tr>
 					</table>
 					<table width="200" cellspacing="0" cellpadding="0">
 						<tr>
 							<td>Item</td>
-							<td><select id="order-item-list" name="itemName"></select></td>
+							<td><select id="order-item-list" name="itemName"></select>
+							</td>
 						</tr>
 						<tr>
 							<td>Quantity</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="quantity" id="quantity" /></td>
+								name="quantity" id="quantity" />
+							</td>
 						</tr>
 						<tr>
 							<td>Selling Price</td>
 							<td><input type="text" style="width: 185px;"
 								autocomplete="off" class="gsc-input" maxlength="2048"
-								name="price" id="price" /></td>
+								name="price" id="price" />
+							</td>
 						</tr>
 
 
@@ -417,8 +435,7 @@
 								type="button" class="cancel" title="Cancel" value="Cancel"
 								onclick="cancel('order')" /> <input type="reset"
 								id="order-reset" class="cancel" title="Reset" value="Reset"
-								style="visibility: hidden" />
-							</td>
+								style="visibility: hidden" /></td>
 						</tr>
 					</table>
 				</form>
