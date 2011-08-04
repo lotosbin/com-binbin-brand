@@ -1,18 +1,3 @@
-body {
-  font-family: Verdana, Helvetica, sans-serif;
-  background-color: #FFFFCC; }
-
-/* style.scss */
-#navbar {
-  width: 80%;
-  height: 23px; }
-  #navbar ul {
-    list-style-type: none; }
-  #navbar li {
-    float: left; }
-    #navbar li a {
-      font-weight: bold; }
-
 #navbar li {
   border-top-radius: 10px;
   -moz-border-radius-top: 10px;
