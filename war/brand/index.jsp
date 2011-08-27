@@ -2,7 +2,7 @@
 <%@page import="java.util.List"%>
 <%@page import="com.google.appengine.api.users.User"%>
 <%@page import="com.binbin.guestbook.Greeting"%>
-<%@page import="com.binbin.guestbook.PMF"%>
+<%@page import="com.binbin.PMF"%>
 <%@page import="javax.jdo.PersistenceManager"%>
 <%@page import="com.google.appengine.api.users.UserServiceFactory"%>
 <%@page import="com.google.appengine.api.users.UserService"%>
@@ -16,8 +16,7 @@
 </head>
 <body>
 	<h1>binbin's project brand</h1>
-	<nav> <a href="/">Home</a> <a href="/guestbook/index.jsp">GuestBook</a>
-	<a href="/brand/index.jsp">Brand</a> </nav>
+	<jsp:include page="/shared/header.html" />
 	<%
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();

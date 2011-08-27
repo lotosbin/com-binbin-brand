@@ -1,4 +1,4 @@
-<%@page import="com.binbin.guestbook.PMF"%>
+<%@page import="com.binbin.PMF"%>
 <%@page import="com.binbin.guestbook.Greeting"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>

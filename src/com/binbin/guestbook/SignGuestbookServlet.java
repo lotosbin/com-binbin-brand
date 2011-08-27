@@ -5,6 +5,8 @@ import java.util.Date;
 import java.util.logging.Logger;
 import javax.jdo.PersistenceManager;
 import javax.servlet.http.*;
+
+import com.binbin.PMF;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;

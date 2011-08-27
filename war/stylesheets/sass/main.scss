@@ -2,6 +2,15 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     background-color: #FFFFCC;
 }
+/**/
+nav{
+	ul{
+		display:inline-block;
+		li{
+			display:inline-block;
+		}
+	}
+}
 /* style.scss */
 
 #navbar {
